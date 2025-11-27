@@ -1,0 +1,21 @@
+{
+    "fields": [
+        {
+            "name": "userId",
+            "type": "Integer",
+            "optional": false
+        },
+        {
+            "name": "userName",
+            "type": "String",
+            "optional": true,
+            "tokenizationNeeded": true
+        },
+        {
+            "name": "salary",
+            "type": "Decimal",
+            "precision": 10,
+            "scale": 2
+        }
+    ]
+}

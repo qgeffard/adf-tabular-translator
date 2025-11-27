@@ -1,0 +1,4 @@
+Name,Type,Precision,Scale,Optional,Tokenization
+userId,Integer,,,false,false
+userName,String,,,true,true
+salary,Decimal,10,2,false,false
